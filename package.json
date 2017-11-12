@@ -1,0 +1,26 @@
+{
+  "name": "task_1_webpack",
+  "version": "1.0.0",
+  "description": "play with webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Nataly Kulychyk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "webpack": "^3.8.1",
+    "webpack-css-loaders": "^1.0.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "moment": "^2.19.2"
+  }
+}
